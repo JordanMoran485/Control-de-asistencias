@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('../Imagenes/Fondo-principal.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 400px;
+    background-color: aliceblue;
+    width: 1000px;
+    
+}
+.Bienvenida{
+    justify-content: center;
+    display: flex;
+
+}
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;   
+    margin-top: 20px;
+    
+   
+}
+
+nav{
+    padding-right: 15px;
+    text-align: right;
+    height: 50px;
+    background-color: #302b2b;
+    color: white;
+}
+
+

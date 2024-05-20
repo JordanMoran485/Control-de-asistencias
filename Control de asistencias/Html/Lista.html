@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estudiantes</title>
+    <link rel="stylesheet" href="../Css/Lista.css">
+</head>
+<body>
+    <header>
+         <nav>
+            <a href="../Html/Inicio.html">Inicio</a>
+            <a href="../Html/Cursos.html">Cursos</a>
+            
+        </nav>
+        <h1>Control de Asistencia de Estudiantes</h1>
+    </header>
+    <main>
+        <section class="tabla-section">
+            <h2>Lista de Estudiantes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del Estudiante</th>
+                        <th>Correo Institucional</th>
+                        <th>Inasistencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>juan@gmail.com</td>
+                        <td><input type="checkbox" name="checkbox" value="Juan Pérez"></td>
+                    </tr>
+                    <tr>
+                        <td>Maria García</td>
+                        <td>maria@gmail.com</td>
+                        <td><input type="checkbox" name="checkbox" value="Maria García"></td>
+                    </tr>
+                    <tr>
+                        <td>Carlos López</td>
+                        <td>carlos@gmail.com</td>
+                        <td><input type="checkbox" name="checkbox" value="Carlos López"></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+                <div id="boton">
+                    <input type="submit" Enviar class="boton">
+                </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Registro.css">
+</head>
+<body>
+    <nav>
+        <a href="../Html/Inicio.html">Inicio</a>
+        
+    </nav>
+  <div class="div-formu">
+    <form onsubmit="return validarCampo()" >
+        <h2>Registro de sesion</h2>
+        <div class="Container">
+          <div >
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" >
+          </div>
+           <div>
+            <label for="apellido">Apellidos</label>
+            <input type="text" name="apellido" id="apellido">
+           </div>
+           <div>
+            <label for="facultad">Facultad</label>
+            <input type="text" name="facultad" id="facultad">
+           </div>
+           <div>
+            <label for="carrera">Carrera</label>
+            <input  type="text" name="carrera" id="carrera">
+           </div>
+           <div>
+            <label for="email">Correo institucional</label>
+            <input  type="email" name="email" id="email">
+           </div>
+           <div>
+            <label for="password">Contraseña</label>
+            <input  type="password" name="password" id="password" >
+           </div>
+        </div>
+         
+       <div id="Boton">
+        <input class="boton" type="submit" name="boton" Registrarse >
+       </div>
+       <div class="Obligacion">
+        <a href="Inicio-sesion.html" class="Obligacion">¿Ya tienes una cuenta?</a>
+       </div>
+        
+     </form>
+</div>
+    <script src="../js/Registro.js"></script>
+</body>
+</html>
